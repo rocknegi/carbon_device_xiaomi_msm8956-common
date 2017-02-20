@@ -517,6 +517,7 @@ service hostapd /system/bin/hostapd -dd /data/hostapd/hostapd.conf
     oneshot
     disabled
 
+<<<<<<< HEAD
 service cnss_diag /system/bin/cnss_diag --q -f -d
     class late_start
     user system
@@ -528,6 +529,8 @@ service cnss-daemon /system/bin/cnss-daemon -n -l
     user system
     group system inet net_admin wifi
 
+=======
+>>>>>>> a2e6727... msm8956: Remove unused cnss
 on property:ro.data.large_tcp_window_size=true
     # Adjust socket buffer to enlarge TCP receive window for high bandwidth (e.g. DO-RevB)
     write /proc/sys/net/ipv4/tcp_adv_win_scale  2
