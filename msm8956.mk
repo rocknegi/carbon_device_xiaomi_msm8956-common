@@ -105,10 +105,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
-# Consumerir
-PRODUCT_PACKAGES += \
-    consumerir.msm8952
-
 # DataServices
 PRODUCT_PACKAGES += \
     librmnetctl
