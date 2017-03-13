@@ -1,4 +1,4 @@
-type platform_app, dev_type;
-type platform_app, dev_type;
+
+
 allow platform_app fuseblk:dir rw_dir_perms;
 allow platform_app fuseblk:file create_file_perms;

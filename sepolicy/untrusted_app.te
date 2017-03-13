@@ -1,2 +1,0 @@
-type untrusted_app, dev_type;
-allow untrusted_app fuseblk:file rw_file_perms;
