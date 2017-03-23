@@ -35,6 +35,7 @@ ro.btconfig.chip=WCN3680
 # Camera
 media.camera.ts.monotonic=0
 persist.camera.HAL3.enabled=1
+camera.lowpower.record.enable=1
 
 
 # CNE/DPM
@@ -142,7 +143,13 @@ persist.radio.rat_on=combine
 persist.radio.sib16_support=1
 persist.radio.sw_mbn_update=0
 persist.radio.VT_HYBRID_ENABLE=1
+
+persist.sys.ssr.restart_level=ALL_ENABLE
+persist.sys.ssr.enable_ramdumps=0
 persist.radio.add_power_save=1
+
+# Storage
+ro.sys.sdcardfs=true
 
 # TCP
 net.tcp.2g_init_rwnd=10
